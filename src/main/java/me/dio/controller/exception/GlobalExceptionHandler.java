@@ -1,6 +1,5 @@
 package me.dio.controller.exception;
 
-<<<<<<< HEAD
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
@@ -31,8 +30,4 @@ public class GlobalExceptionHandler {
         logger.error(message, unexpectedException);
         return new ResponseEntity<>(message, HttpStatus.INTERNAL_SERVER_ERROR);
     }
-=======
-public class GlobalExceptionHandler {
-    
->>>>>>> 83b83bf4719d137d0b58b6b53871cdb2017d8498
 }
