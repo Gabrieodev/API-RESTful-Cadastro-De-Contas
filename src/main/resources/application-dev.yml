@@ -17,6 +17,7 @@ spring:
       path: /h2-console
       settings:
         trace: false
+<<<<<<< HEAD
         web-allow-others: false
 
   springdoc:
@@ -25,3 +26,6 @@ spring:
       swagger-ui:
         path: /swagger-ui.html
         enabled: true
+=======
+        web-allow-others: false
+>>>>>>> 83b83bf4719d137d0b58b6b53871cdb2017d8498
