@@ -33,8 +33,4 @@ public class UserController {
                 .toUri();
         return ResponseEntity.created(location).body(userCreated);
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 83b83bf4719d137d0b58b6b53871cdb2017d8498

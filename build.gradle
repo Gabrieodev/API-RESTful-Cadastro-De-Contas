@@ -7,14 +7,11 @@ plugins {
 group = 'me.dio'
 version = '0.0.1-SNAPSHOT'
 
-<<<<<<< HEAD
 java {
 	toolchain {
 		languageVersion = JavaLanguageVersion.of(21)
 	}
 }
-=======
->>>>>>> 83b83bf4719d137d0b58b6b53871cdb2017d8498
 
 repositories {
 	mavenCentral()
@@ -28,10 +25,6 @@ dependencies {
 	runtimeOnly 'com.h2database:h2'
 	runtimeOnly 'org.postgresql:postgresql'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-<<<<<<< HEAD
-=======
-	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
->>>>>>> 83b83bf4719d137d0b58b6b53871cdb2017d8498
 }
 
 tasks.jar {
