@@ -14,5 +14,6 @@ spring:
     level:
       org:
         springframework:
-          jdbc: validate
+                  jdbc: DEBUG
+        root: INFO
 
