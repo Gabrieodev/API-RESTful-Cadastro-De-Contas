@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-## Diagrama de Classes
-=======
 # 🏦 API RESTful de Cadastro de Contas Bancárias
 
 Este projeto é uma **API RESTful** desenvolvida em **Java 23** utilizando o **Spring Boot**, com gerenciamento de **contas bancárias** em um banco de dados **PostgreSQL** hospedado no **Railway**.
