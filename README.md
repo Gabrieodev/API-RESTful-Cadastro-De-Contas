@@ -29,7 +29,6 @@ Este projeto foi criado como parte de um **desafio da DIO (Digital Innovation On
 ---
 
 ## Diagrama de Classes (Domínio da API)
->>>>>>> 83b83bf4719d137d0b58b6b53871cdb2017d8498
 
 ```mermaid
 classDiagram
@@ -68,8 +67,6 @@ classDiagram
   User "1" *-- "1" Card
   User "1" *-- "N" News
 ```
-<<<<<<< HEAD
-=======
 ---
 
 Este documento contém capturas de tela que demonstram o funcionamento da API, tanto no banco de dados quanto na interface Swagger.
